@@ -1,21 +1,28 @@
+/* Background Gradient with Animation */
+/* index.css */
+
 body {
   background: linear-gradient(
-    to bottom right,
-    #ff7e5f,
-    #feb47b,
-    #86a8e7,
-    #91eae4,
-    #f3a683
+    45deg,
+    #2c3e50,
+    #34495e,
+    #4a69bd,
+    #6a89cc,
+    #82ccdd
   );
-  background-size: 200% 200%;
-  animation: gradientAnimation 15s linear infinite;
+  background-size: 400% 400%; /* Increased size for more noticeable movement */
+  transition: background-position 0.05s, transform 0.05s; /* Smooth transitions */
 }
 
+/* Gradient Animation Keyframes */
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 0%;
   }
-  100% {
+  50% {
     background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
   }
 }

@@ -9,5 +9,20 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Inline JavaScript for Interactive Background -->
+    <script>
+      document.body.addEventListener("mousemove", (e) => {
+        const { clientX, clientY } = e;
+        const { innerWidth, innerHeight } = window;
+
+        // Calculate position as percentages of the viewport width and height
+        const xPercent = (clientX / innerWidth) * 100;
+        const yPercent = (clientY / innerHeight) * 100;
+
+        // Update background position to follow mouse
+        document.body.style.backgroundPosition = `${xPercent}% ${yPercent}%`;
+      });
+    </script>
   </body>
 </html>
