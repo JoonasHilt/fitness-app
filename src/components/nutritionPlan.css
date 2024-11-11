@@ -1,0 +1,78 @@
+/* src/components/NutritionPlan.css */
+
+.nutrition-plan-container {
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2,
+h3 {
+  color: #333;
+  font-weight: 600;
+}
+
+.nutrition-summary {
+  margin-bottom: 1.5rem;
+}
+
+.nutrition-summary p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.macronutrient-section {
+  margin-bottom: 1.5rem;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.slider-container label {
+  flex: 1;
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="range"] {
+  flex: 2;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.total-ratio {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 1rem;
+}

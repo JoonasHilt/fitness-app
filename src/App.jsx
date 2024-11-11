@@ -1,7 +1,8 @@
 // src/App.jsx
 import React, { useState } from "react";
 import axios from "axios";
-import UserForm from "./components/UserForm";
+import UserForm from "./components/userForm";
+import NutritionPlan from "./components/nutritionPlan";
 import "./App.css"; // Import the main CSS
 
 function App() {
@@ -24,14 +25,11 @@ function App() {
     <div className="container">
       <h1>Nutrition Plan App</h1>
 
-      {/* Form for submitting new user data */}
+      {/* Conditional rendering of UserForm or NutritionPlan */}
       {!userData ? (
         <UserForm onSubmit={handleFormSubmit} />
       ) : (
-        <div>
-          <h2>Nutrition Plan for Submitted User</h2>
-          <p>Calorie and macro calculations will go here!</p>
-        </div>
+        <NutritionPlan userData={userData} />
       )}
     </div>
   );
