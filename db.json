@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "age": 30,
+      "height": 175,
+      "weight": 70,
+      "goalWeight": 65,
+      "activityLevel": "moderate",
+      "dietPreference": "mediterranean"
+    },
+    {
+      "id": "f81c",
+      "age": "32",
+      "height": "175",
+      "weight": "75",
+      "goalWeight": "85",
+      "sex": "male",
+      "dietPreference": "anything",
+      "activityLevel": "moderate",
+      "weeklyWorkout": "moderate",
+      "mealsPerDay": "3"
+    }
+  ]
+}
