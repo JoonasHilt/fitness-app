@@ -128,6 +128,18 @@
       "activityLevel": "moderate",
       "weeklyWorkout": "moderate",
       "mealsPerDay": "3"
+    },
+    {
+      "id": "cf23",
+      "age": "45",
+      "height": "190",
+      "weight": "120",
+      "goalWeight": "100",
+      "sex": "male",
+      "dietPreference": "mediterranean",
+      "activityLevel": "moderate",
+      "weeklyWorkout": "moderate",
+      "mealsPerDay": "3"
     }
   ]
 }
