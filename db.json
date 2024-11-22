@@ -188,6 +188,18 @@
       "activityLevel": "light",
       "weeklyWorkout": "moderate",
       "mealsPerDay": "3"
+    },
+    {
+      "id": "2b3c",
+      "age": "32",
+      "height": "170",
+      "weight": "75",
+      "goalWeight": "85",
+      "sex": "male",
+      "dietPreference": "anything",
+      "activityLevel": "light",
+      "weeklyWorkout": "moderate",
+      "mealsPerDay": "4"
     }
   ]
 }
